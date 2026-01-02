@@ -7,5 +7,5 @@ Student::Student(std::string n, int a) {
 }
 
 void Student::display() {
-    std::cout << "Name: " << name << ", Age: " << age << std::endl;
+    std::cout << "Name: " << name << ", ID : " << id << std::endl;
 }
