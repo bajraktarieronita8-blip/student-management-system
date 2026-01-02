@@ -1,7 +1,9 @@
 #include <iostream>
+#include "Student.h"
 using namespace std;
 
 int main() {
-    cout << "Program started" << endl;
+    Student s("Aulona", 21);
+    s.display();
     return 0;
 }
