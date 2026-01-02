@@ -1,9 +1,9 @@
-#include <iostream>
 #include "Student.h"
-using namespace std;
+#include <iostream>
 
 int main() {
-    Student s("Aulona", 21);
-    s.display();
+    Student s1(1, "Eronita");
+    std::cout << "Sistemi i Menaxhimit te Studenteve" << std::endl;
+    s1.shfaq();
     return 0;
 }
